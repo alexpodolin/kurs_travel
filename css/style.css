@@ -110,7 +110,7 @@ a {
     top: 3%;
     width: 38%;
     height: 40px;
-    background: transparent url(../img/tagline.png) no-repeat;
+    background: transparent url("../img/tagline.png") no-repeat;
     background-size: contain;
 }
 .header__block-right p:not(:last-child) {
@@ -161,7 +161,7 @@ a {
     top:35%;   
     width: 1%;
     height: 20px;
-    background: transparent url(../img/arrow-left.png) no-repeat;
+    background: transparent url("../img/arrow-left.png") no-repeat;
     background-size: contain;
 }
 .header__menu li:hover  {
@@ -176,7 +176,7 @@ a {
 }
 .main__menu {	
 	float: left;
-	width: 29%;
+	width: 370px;
 }
 .main__menu_basic {
 	list-style-type: none;
@@ -217,7 +217,7 @@ a {
 /*    border: 30px solid transparent ;
     border-left-color: #0077a2;
     border-radius: 5px;*/
-    background: #0077a2 url(../img/arrow-menu.png) no-repeat;
+    background: #0077a2 url("../img/arrow-menu.pn"g) no-repeat;
     background-size: contain;
 	width: 23px;
 	height: 60px;
@@ -302,7 +302,7 @@ a {
 	color: #ffffff;
 	text-align: center
 }
-article {
+.main__about-us {
 	float: left;
 	color: #000000;
 	font-size: 28px;
@@ -311,9 +311,97 @@ article {
 	line-height: 36px;
 	margin: 20px 0 0 0;
 }
-article p {
+.main__about-us p {
 	text-indent: 20px;
 	margin: 0;
+}
+/*------------------------------------*/
+.main__about-ship {
+	width: 900px;
+	float: right;	
+}
+.main__about-ship h1 { 
+	color: #0077a2;
+	font-size: 42px;
+	font-weight: bold;
+	line-height: 12px;
+	text-align: center;
+}
+.main__about-ship img {
+	box-sizing: border-box;	
+}
+.main__about-ship img:last-of-type {
+	margin: 0 0 0 10px;
+	border: 3px solid #0077a2;
+	border-radius: 5px;
+	position: relative;
+}
+.main__about-ship_zoom {
+	content: "";
+	position: absolute;
+	background: transparent url("../img/zoom.png") no-repeat;
+	background-size: contain;
+	left: 81%;
+    top: 31%;
+    width: 60px;
+    height: 60px;
+}
+.main__about-ship_zoom:hover {
+	cursor: pointer;
+	width: 70px;
+    height: 70px;
+    /*left: 80%;
+    top: 37%;*/
+}
+.main__about-ship_description h2 { 
+	color: red;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 36px;
+	text-align: left;	
+    text-indent: 0;
+    margin-bottom: 0px;
+}
+.main__about-ship_description  {	
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 36px;
+	text-indent: 50px;
+}
+.main__about-ship_description p {
+	margin: 0;
+}
+.main__about-ship_description ul {
+	margin: 0;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 36px;
+	/*text-indent: 50px;*/	
+    position: relative;
+}
+.main__about-ship_description li {
+	list-style-type: none;
+}
+.main__about-ship_description li:before {
+	content: "";
+	position: absolute;
+	background: transparent url("../img/arrow-ship.png") no-repeat;
+	background-size: contain;
+	width: 40px;
+    height: 20px;
+    left: 3%;
+    top: 15%;
+}
+.main__about-ship_description li:last-of-type:before {
+	top: 65%;
+}
+.main__promo-foto_big img {
+	box-sizing: border-box;
+	border: none;
+	border-radius: 0;
 }
 /*------------------------------------*/
 .footer {
@@ -382,7 +470,7 @@ article p {
 }
 .footer__bottom {
 	min-width: 100%;
-	background-color: #cc3333;
+	background-color: red;
 	border-radius: 5px;
 	padding: 5px 0;
 }
@@ -415,11 +503,11 @@ article p {
 	background-size: cover;
 }
 .footer__btn-social_vk {
-	background: transparent url(../img/vk.png) no-repeat;
+	background: transparent url("../img/vk.png") no-repeat;
 	background-size: cover;
 }
 .footer__btn-social_fb {
-	background: transparent url(../img/fb.png) no-repeat;
+	background: transparent url("../img/fb.png") no-repeat;
 	background-size: cover;
 }
 .footer__btn-social:hover {
