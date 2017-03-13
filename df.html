@@ -67,8 +67,8 @@
 		<nav class="main__menu">
 			<ul class="main__menu_basic">
 				<li>
-					<a class="main__menu_basic_link menu_basic_link__alignment" href="#">Речные круизы по России</a>
-					<ul class="main__menu_nested">
+					<a class="main__menu_basic_link main__menu_basic_link_alignment" href="#">Речные круизы по России</a>
+					<ul class="main__menu_nested main__menu_nested_ship">
 						<li>
 							<a class="main__menu_nested_link" href="#">Поиск круизов</a>
 						</li>
@@ -90,17 +90,17 @@
 					</ul>
 				</li>
 				<li>
-					<a class="main__menu_basic_link " href="#">Морские и речные круизы по всему миру</a>
+					<a class="main__menu_basic_link" href="#">Морские и речные круизы по всему миру</a>
 				</li>
 				<li>
-					<a class="main__menu_basic_link menu_basic_link__alignment" href="#">Отдых за рубежом</a>
+					<a class="main__menu_basic_link main__menu_basic_link_alignment" href="#">Отдых за рубежом</a>
 				</li>
 				<li>
 					<a class="main__menu_basic_link" href="#">Отдых в России и ближнем зарубежье</a>
 				</li>
 				<li>
 					<a class="main__menu_basic_link" href="#">Приглашаем в Санкт-Петербург</a>
-					<ul class="main__menu_nested">
+					<ul class="main__menu_nested main__menu_nested_ship">
 						<li>
 							<a class="main__menu_nested_link" href="#">Туры для групп взрослых туристов</a>
 						</li>
@@ -125,7 +125,7 @@
 		</nav>
 
 		<article class="main__about-ship">
-			<section>
+			<section class="main__about-ship_scheme">
 				<h1>Теплоход "Дмитрий Фурманов"</h1>
 				<img src="img/d_furmanov.jpg" width="445" height="400" alt="d_furmanov">
 				<img src="img/d_furmanov-scheme.jpg" width="445" height="400" alt="d_furmanov-scheme">	
@@ -143,33 +143,33 @@
 				</ul>				
 			</section>
 
-			<section class="main__about-ship_description">
+			<section class="main__about-ship_img">
 				<h2>Фото интерьеров теплохода</h2>
 
 				<div class="main__promo-foto">
 					<div class="main__promo-foto_big">
-						<img src="img/reception.jpg" width="" height="" alt="">
+						<img src="img/reception.jpg" width="600" height="449" alt="reception">
 						<div class="main__promo-foto_strip">
 							<span>Рецепция</span>
 						</div>						
 					</div>
 
 					<div class="main__promo-foto_mini">
-						<img src="" width="" height="" alt="">
+						<img src="img/cabin.jpg" width="290" height="145" alt="cabin">
 						<div class="main__promo-foto_strip">
 							<span>Каюта</span>
 						</div>						
 					</div>
 
 					<div class="main__promo-foto_mini">
-						<img src="" width="" height="" alt="">
+						<img src="img/restaurant.jpg" width="290" height="145" alt="restaurant">
 						<div class="main__promo-foto_strip">
 							<span>Ресторан</span>
 						</div>
 					</div>
 
 					<div class="main__promo-foto_mini">
-						<img src="" width="" height="" alt="">
+						<img src="img/deckhouse.jpg" width="290" height="145" alt="deckhouse">
 						<div class="main__promo-foto_strip">
 							<span>Рубка</span>
 						</div>
@@ -177,11 +177,51 @@
 				</div>				
 			</section>
 
-			<section class="main__about-ship_description">
-				<h2>Расписание и цены</h2>
-				
+			<section class="main__about-ship_schedule">
+				<h2>Расписание и цены</h2>	
+				<table class="main__about-ship_table">
+					<tr>
+						<td>Отправление</td>
+						<td>Прибытие</td>
+						<td>Дней/Ночей</td>
+						<td rowspan="3">Маршрут</td>
+						<td colspan="6">Стоимость, рублей за 1 место</td>						
+						<td rowspan="3">Ребенок без мест</td>
+						<td rowspan="3">Доплата за иностр.граждан</td>		
+					</tr>
+					<tr>
+						<td rowspan="2">Дата</td>
+						<td rowspan="2">Дата</td>
+						<td rowspan="2">Круиз</td>
+						<td>Ниж.пал.</td>
+						<td>Глав.пал.</td>
+						<td>Сред.пал.</td>
+						<td colspan="3">Шлюпочная палуба</td>
+					</tr>
+					<tr>
+						<td>4-х местная</td>
+						<td>2-х местная</td>
+						<td>2-х местная</td>
+						<td>2-х местная</td>
+						<td>1 местная</td>
+						<td>люкс</td>
+					</tr>
+					<tr>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+						<td class="main__about-ship_table_data"></td>
+					</tr>
+				</table>			
 			</section>
-			
 		</article>
 	</main>
 

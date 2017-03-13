@@ -176,89 +176,68 @@ a {
 }
 .main__menu {	
 	float: left;
-	width: 370px;
+	width: 365px;
 }
 .main__menu_basic {
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
-	font-size: 24px;
+	margin: 0;		
+	position: relative;
+}
+.main__menu_basic li {
+	margin: 0 0 5px 0;
+}
+.main__menu_basic li:last-child {
+	margin: 0 0 0 0;
+}
+.main__menu_basic_link {	
+    background-color: red;
+    border-radius: 5px;
+    font-size: 24px;
 	font-weight: normal;
 	font-style: normal;	
 	line-height: 24px;
+	color: #ffffff;
+	display: block;
+	padding: 5px 0 5px 10px;
 }
-.main__menu_basic li {
-	margin: 0 5px 5px 0;
-	/*padding: 5px 0 0 15px;*/
-    background-color: red;
-    border-radius: 5px;
-    color: #ffffff;
-    position: relative;
-    height: 60px;
-    text-align: left;
-    vertical-align: baseline;
+.main__menu_basic_link_alignment {
+	padding: 17px 0 17px 10px;
 }
-.main__menu_basic_link {
-	display: inline-block;
-	padding: 5px 0 0 15px;
-}
-.menu_basic_link__alignment {
-	padding: 15px 0 0 15px;
-}
-.main__menu_basic li:hover {
-	cursor: pointer;
+.main__menu_basic_link:hover {	
 	background-color: #0077a2;
-}
-.main__menu_basic li:hover:after  {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: -15px;
-/*    border: 30px solid transparent ;
-    border-left-color: #0077a2;
-    border-radius: 5px;*/
-    background: #0077a2 url("../img/arrow-menu.pn"g) no-repeat;
-    background-size: contain;
-	width: 23px;
-	height: 60px;
-	border-radius: 15px;
-	border-color: transparent;
 }
 .main__menu_nested {
 	display: none;
 } 
-.main__menu_basic li:hover > .main__menu_nested {
-	display: initial;
-	list-style-type: none;
+.main__menu_basic_link:hover ~ .main__menu_nested {
+	display: block;
 	position: fixed;
     left: 35%;
     top: 30%;
-} 
-.main__menu_nested li {		
+    list-style-type: none;
+}
+.main__menu_nested_link{		
 	font-size: 18px;
 	font-weight: normal;
 	font-style: normal;	
-	line-height: 14px;
+	line-height: 24px;
 	background-color: #2f8cad;
-	cursor: pointer;
 	opacity: 0.7;
-	text-indent: left;
-	vertical-align: middle;
-	width: 380px;
-    height: 40px;
+	display: block;
+	padding: 5px 15px;
+    border-radius: 5px;
 }
-.main__menu_nested li:hover:after {	
-	content: "";
-	position: absolute;
-    top: 0px;
-    right: 0px;
-    background: transparent url("") no-repeat;
-}
-.main__menu_nested_link {
-	padding: 12px 0 0 15px;
-    display: block;
-}
+/*---Меню с теплоходами-----------*/
+.main__menu_basic_link:hover ~ .main__menu_nested_ship {
+	display: block;
+	position: relative;
+	left: 0%;
+	top: 0%;
 
+
+}
+/*---Конец меню с теплоходами-----*/
 
 .main__ship-img {
 	float: right;
@@ -315,10 +294,21 @@ a {
 	text-indent: 20px;
 	margin: 0;
 }
-/*------------------------------------*/
+/*---Страница с теплоходами-----------*/
+
+
+
+
 .main__about-ship {
 	width: 900px;
 	float: right;	
+}
+.main__about-ship section {
+
+	float: left;	
+}
+.main__about-ship_scheme {
+	width: 100%;
 }
 .main__about-ship h1 { 
 	color: #0077a2;
@@ -327,10 +317,19 @@ a {
 	line-height: 12px;
 	text-align: center;
 }
-.main__about-ship img {
+.main__about-ship h2 { 
+	color: red;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 24px;
+	text-align: left;	
+    text-indent: 0;
+}
+.main__about-ship_scheme img {
 	box-sizing: border-box;	
 }
-.main__about-ship img:last-of-type {
+.main__about-ship_scheme img:last-of-type {
 	margin: 0 0 0 10px;
 	border: 3px solid #0077a2;
 	border-radius: 5px;
@@ -342,7 +341,7 @@ a {
 	background: transparent url("../img/zoom.png") no-repeat;
 	background-size: contain;
 	left: 81%;
-    top: 31%;
+    top: 24%;
     width: 60px;
     height: 60px;
 }
@@ -350,18 +349,6 @@ a {
 	cursor: pointer;
 	width: 70px;
     height: 70px;
-    /*left: 80%;
-    top: 37%;*/
-}
-.main__about-ship_description h2 { 
-	color: red;
-	text-transform: uppercase;
-	font-size: 32px;
-	font-weight: normal;
-	line-height: 36px;
-	text-align: left;	
-    text-indent: 0;
-    margin-bottom: 0px;
 }
 .main__about-ship_description  {	
 	font-size: 18px;
@@ -379,7 +366,6 @@ a {
 	font-weight: normal;
 	font-style: normal;
 	line-height: 36px;
-	/*text-indent: 50px;*/	
     position: relative;
 }
 .main__about-ship_description li {
@@ -398,10 +384,72 @@ a {
 .main__about-ship_description li:last-of-type:before {
 	top: 65%;
 }
-.main__promo-foto_big img {
+.main__about-ship_img img {
 	box-sizing: border-box;
-	border: none;
-	border-radius: 0;
+}
+.main__promo-foto_big {
+	float: left;
+	position: relative;
+}
+
+.main__promo-foto_mini {
+	float: right;
+	position: relative;
+}
+.main__promo-foto_mini {
+	margin: 0 0 7px 0;
+}
+.main__promo-foto_mini:last-child {
+	margin: 0 0 0 0;
+}
+.main__promo-foto_strip {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.5;
+	background-color: #ffffff;
+	height: 30px
+}
+.main__promo-foto_strip span {
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 28px;
+	color: #0077a2;
+	padding: 0 0 0 45px;	
+}
+.main__promo-foto_strip span:before {
+	content: "";
+	position: absolute;
+	background: transparent url("../img/arrow-ship.png") no-repeat;
+	background-size: contain;
+	width: 30px;
+    height: 15px;
+    left: 2%;
+    top: 23%;
+    z-index: 9999;
+}
+.main__about-ship_schedule {
+	width: 100%;
+}
+.main__about-ship_table {
+	width: 100%;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 14px;
+	text-align: center;
+	color: #ffffff;	
+	background-color: red;
+	border-collapse: collapse;
+}
+.main__about-ship_table, th, td {
+	border: 2px solid white;
+	padding: 5px 5px;
+}
+.main__about-ship_table_data {
+	background-color: #0077a2;
+	padding: 5px 5px;
 }
 /*------------------------------------*/
 .footer {
