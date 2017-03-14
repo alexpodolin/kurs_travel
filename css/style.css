@@ -169,7 +169,6 @@ a {
 }
 /*------------------------------------*/
 .main {
-	min-width: 100%;
 	color: #000000;
 	font-size: 0px;
 	margin: 10px 0 10px 0;
@@ -351,7 +350,7 @@ a {
 	border-bottom-left-radius: 5px;
 }
 .main__offer figcaption {
-	width: 310px;
+	width: 100%;
 	background-color: #0077a2;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
@@ -530,7 +529,7 @@ a {
 }
 /*------------------------------------*/
 .footer {
-	min-width: 100%;
+	/*min-width: 100%;*/
 	color: #ffffff;
 }
 .footer__top {

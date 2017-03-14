@@ -1,0 +1,75 @@
+/* 1024 - 1279 */
+@media screen and (max-width: 1279px) { 
+.wrapper { max-width: 1024px; }
+.header, .main, .footer { padding: 0 5px; }
+.header { padding-top: 5px; max-width: 100%; }
+.header__block-left,
+.header__block-middle,
+.header__block-right {
+    height: 205px; 
+}
+.header__block-left i { font-size: 24px; padding: 170px 0 0 0; }
+.header__block-middle button { font-size: 24px; }
+.header__block-middle button:first-child { margin: 4% 0 0 11%; padding: 2% 3% 16% 2%; }
+.header__block-middle__btn-top span { left: 110px; }
+.header__block-middle button:last-child { margin: 3% 0 0 11%; padding: 3% 2% 15% 2%; }
+.header__block-middle__btn-bottom span { left: 148px; }
+.header__block-right_tagline { top: 2%; right: 1%; }
+.header__block-right p:not(:last-child) { margin: 20% 0 0 18%; font-size: 24px;}
+.header__block-right p:last-child { font-size: 28px; margin: 6% 0 0 12%; }
+.header__block-right span {  font-size: 52px; }
+.header__menu_menu-link { font-size: 18px; padding: 4% 0%; }
+.header__menu_menu-link:first-child:before { height: 12px; }
+.main { margin: 5px 0 5px 0; }
+.main__menu { width: 315px; }
+.main__menu_basic_link { font-size: 18px; line-height: 18px; }
+.main__menu_basic_link:focus ~ .main__menu_nested { left: 30%; }
+.main__menu_basic_link_alignment { padding: 14px 0 14px 10px; }
+.main__menu_nested_link { font-size: 14px; line-height: 18px; }
+.main__ship-img img { width: 690px; height: 250px; }
+.main__offer figcaption { width: 243px; font-size: 14px; }
+.main__offer img { width: 243px; height: 240px; }
+.main__about-us { font-size: 24px; line-height: 30px; }
+.footer { padding-bottom: 5px; }
+.footer__top_menu { width: 65%; padding: 0 0 15px 0; }
+.footer__nav { width: 219px; height: 130px; }
+.footer__top_contact {  font-size: 28px; } 
+.footer__copyright { width: 53%; margin: 5px 0 0 10%; }
+.footer__bottom_social { font-size: 18px; }
+}
+
+
+/* 980 - 1023 */
+@media screen and (max-width: 1023px) {
+
+}
+
+/* 960 - 979 */
+@media screen and (max-width: 979px) {
+
+}
+
+/* 768 - 979 */
+@media screen and (max-width: 959px) {
+
+}
+
+/* 640 - 767 */
+@media screen and (max-width: 767px) {
+
+}
+
+/* 600 - 640 */
+@media screen and (max-width: 639px) {
+
+}
+
+/* 480 - 639 */
+@media screen and (max-width: 639px) {
+
+}
+
+/* 320 - 479 */
+@media screen and (max-width: 479px) {
+
+}
