@@ -95,13 +95,13 @@ a {
 	cursor: pointer;	
 }
 .header__block-middle button:active {
-	border-color: red;
+	border-color: #dd233a;
 }
 .header__block-right {
 	float: right;
 	width: 40%;
 	background: transparent url("../img/compass.png") no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 .header__block-right_tagline {
 	content: "";
@@ -133,7 +133,7 @@ a {
 .header__menu {
 	float: left;
 	width: 100%;
-	background-color: red;
+	background-color: #dd233a;
 	border-radius: 5px;
 }
 .header__menu ul {
@@ -190,7 +190,7 @@ a {
 	margin: 0 0 0 0;
 }
 .main__menu_basic_link {	
-    background-color: red;
+    background-color: #dd233a;
     border-radius: 5px;
     font-size: 24px;
 	font-weight: normal;
@@ -252,7 +252,7 @@ a {
 	width: 325px;
 }
 .main__menu_ship_nav li {
-	border: 2px solid red;
+	border: 2px solid #dd233a;
 	border-radius: 5px;
 	padding: 3px 0 3px 10px;
 }
@@ -281,7 +281,7 @@ a {
 .vertical-scroll {
 	display: block;
 	float: right;
-	background-color: red;
+	background-color: #dd233a;
 	width: 20px;
 	height: 180px;
 	position: absolute;
@@ -394,7 +394,7 @@ a {
 	text-align: center;
 }
 .main__about-ship h2 { 
-	color: red;
+	color: #dd233a;
 	text-transform: uppercase;
 	font-size: 32px;
 	font-weight: normal;
@@ -516,7 +516,7 @@ a {
 	line-height: 14px;
 	text-align: center;
 	color: #ffffff;	
-	background-color: red;
+	background-color: #dd233a;
 	border-collapse: collapse;
 }
 .main__about-ship_table, th, td {
@@ -594,7 +594,7 @@ a {
 }
 .footer__bottom {
 	min-width: 100%;
-	background-color: red;
+	background-color: #dd233a;
 	border-radius: 5px;
 	padding: 5px 0;
 }
