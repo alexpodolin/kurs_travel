@@ -1,5 +1,6 @@
 'use strict';
 
-function showShip() {
-	document.getElementsByClassName("main__menu_ship_nav")[0].style.display = "block";
+function showMenuHeader() {
+	document.getElementsByClassName("header__menu")[0].style.display = "block";
+	document.getElementsByClassName("header__menu")[0].style.margin = "5px 0 0 0";
 }

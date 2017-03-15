@@ -119,7 +119,6 @@
 .footer__btn-social { width: 25px; height: 25px; }
 }
 
-
 /* 640 - 767 */
 @media screen and (max-width: 767px) {
 .header__block-left, 
@@ -168,7 +167,7 @@
 .main__ship-img img { width: 405px; height: 250px; }
 .main__offer figcaption { width: 143px; }
 .main__offer img { width: 143px; }
-.footer__top_menu { width: 34%; float: right; padding: 15% 5%; margin: 0 5% 0 0; }
+.footer__top_menu { width: 34%; float: right; padding: 15% 8%; margin: 0 5% 0 0; }
 .footer__nav { display: none; }
 .footer__top_contact { float: left; margin: 1% 0 1% 1%; }
 .footer__top_contact address { font-size: 12px; }
@@ -178,8 +177,8 @@
 .footer__btn-social { width: 50px; height: 50px; }
 }
 
-/* 480 - 639 */
-@media screen and (max-width: 639px) {
+/* 480 - 600 */
+@media screen and (max-width: 559px) {
 .header{ background: transparent url(../img/compass.png) 0% 50% no-repeat;
 		 background-size: contain; }
 .header__block-left, 
@@ -199,11 +198,22 @@
 .header__block-right_tagline { top: 8%; width: 78%; left: 10%; }
 .header__block-right p:not(:last-child) { margin: -12% 0 0 34%; font-size: 18px; }
 .header__block-right { background: none; }
-
-
-
-
-
+.header__menu_btn-hidden { 
+	float: left;	
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: #dd233a;	
+	border-radius: 5px; }
+.header__menu_btn_container { margin: 0 auto;	width: 10%; }
+.header__menu_btn-hidden_stripe {
+	margin: 4px 0;	
+	height: 5px;
+	background-color: #ffffff;
+	border-radius: 5px; }
+.header__menu { display: none; }
+.header__menu_btn-hidden:hover { cursor: pointer; background-color: #0077a2; }
+.main__ship-img { display: none; }
 
 
 .main__offer figure { margin: 0 5px 10px 0; }

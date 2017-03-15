@@ -130,6 +130,9 @@ a {
 	color: #cc3333;
 	font-size: 64px;
 }
+.header__menu_btn-hidden { 
+	display: none;
+}
 .header__menu {
 	float: left;
 	width: 100%;
@@ -175,7 +178,7 @@ a {
 }
 .main__menu {	
 	float: left;
-	width: 365px;
+	width: 370px;	
 }
 .main__menu_basic {
 	list-style-type: none;
@@ -378,6 +381,7 @@ a {
 .main__about-ship {
 	width: 900px;
 	float: right;	
+	margin: 0 0 0 10px;
 }
 .main__about-ship section {
 
