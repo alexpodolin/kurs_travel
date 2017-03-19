@@ -6,6 +6,9 @@ function showMenuHeader() {
 	document.getElementsByClassName('header__menu')[0].style.margin = "5px 0 0 0";
 }
 
+// function showShip(); {
+// 	 document.getElementsByClassName('main__menu_ship_nav')[0].style.display = "block";
+// }
 //Уберем класс в меню для 
 //корректного отображения при разрешении <= 480px
 // function rmLinkAlignment() {
