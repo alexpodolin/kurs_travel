@@ -165,7 +165,7 @@
 .header__block-right_tagline { top: 4%; }
 .header__block-right p:not(:last-child) { margin: 25% 0 0 17%; }
 .header__block-right p:last-child { margin: 4% 0 0 11%; }
-.header__menu_menu-link:first-child:before { left: 9%; top: 38%; }
+.header__menu_menu-link:first-child:before { left: 7%; top: 38%; }
 .main__menu { width: 30%; }
 .main__ship-img img { width: 405px; height: 255px; }
 .main__offer figcaption { width: 143px; }

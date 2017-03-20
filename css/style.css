@@ -147,8 +147,13 @@ a {
 }
 .header__menu li {
 	display: inline-block;
-	min-width: 17%;
+	/*min-width: 17%;*/
 	/*width: 220px;*/
+	margin: 0 0 0 4%;
+}
+.header__menu li:first-child { 
+	margin: 0;
+	padding: 0;
 }
 .header__menu_menu-link {
 	display: block;
