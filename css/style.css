@@ -9,7 +9,7 @@ html, body {
 }
 .wrapper {
 	margin: 0 auto;	
-	max-width: 1280px;	
+	width: 1280px;	
 	height: auto;
 	overflow: hidden;
 	position: relative;

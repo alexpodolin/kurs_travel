@@ -1,5 +1,6 @@
 /* 1024 - 1279 */
 @media screen and (max-width: 1279px) { 
+.wrapper { width: 1024px; }
 .header, .main, .footer { padding: 0 5px; }
 .header { padding-top: 5px; max-width: 100%; }
 .header__block-left,
@@ -37,6 +38,7 @@
 
 /* 960 - 1024 */
 @media screen and (max-width: 1023px) {
+.wrapper { width: 960px; }
 .header__block-left,
 .header__block-middle,
 .header__block-right { height: 175px; }
@@ -67,6 +69,7 @@
 
 /* 800 - 960 */
 @media screen and (max-width: 959px) {
+.wrapper { width: 800px; }
 .header__block-left, 
 .header__block-middle, 
 .header__block-right { height: 160px; }
@@ -94,6 +97,7 @@
 
 /* 768 - 800 */
 @media screen and (max-width: 799px) {
+.wrapper { width: 768px; }
 .header__block-left, 
 .header__block-middle, 
 .header__block-right { height: 150px; }
@@ -122,6 +126,7 @@
 
 /* 640 - 767 */
 @media screen and (max-width: 767px) {
+.wrapper { width: 640px; }
 .header__block-left, 
 .header__block-middle, 
 .header__block-right { height: 125px; }
@@ -157,6 +162,7 @@
 
 /* 600 - 640 */
 @media screen and (max-width: 639px) {
+.wrapper { width: 600px; }
 .header__block-left, 
 .header__block-middle, 
 .header__block-right { height: 120px; }
@@ -182,6 +188,7 @@
 
 /* 480 - 600 */
 @media screen and (max-width: 559px) {
+.wrapper { width: 480px; }
 .header{ background: transparent url(../img/compass.png) 0% 12% no-repeat;
 		 background-size: contain;
 		 background-attachment: fixed; }
@@ -241,14 +248,13 @@
 
 /* 320 - 479 */
 @media screen and (max-width: 479px) {
+.wrapper { width: 320px; }
 .header__block-left i { padding: 39% 0 0 4%; }
 .header__block-right_tagline { top: 6%;  left: 15%; }
 .header__block-right p:not(:last-child) { margin: -20% 0 0 14%; }
 .header__block-right p:last-child { margin: 4% 0 0 11%; }
 .header__block-middle button:first-child { margin: 42% 0 0 18%; padding: 1% 3% 6% 2%; }
 .header__block-middle button:last-child { margin: 2% 0 0 18%; padding: 1% 2% 6% 2%;  }
-
-
 .main__offer figure { width: 100%; margin: 0 0 5px 0; }
 .main__offer figcaption { width: 100%; font-size: 18px; }
 .main__offer img { width: 100%; height: 325px; }
