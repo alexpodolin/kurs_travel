@@ -6,7 +6,7 @@
 .main__offer img { width: 309px; }
 .main__about-ship { width: 870px; }
 .main__about-ship_scheme img { width: 430px;}
-.main__about-ship_zoom { top: 20%; }
+.main__about-ship_zoom { top: 41%; }
 .main__promo-foto_big img { width: 590px; }
 .main__about-ship_table { font-size: 12px; }
 }
@@ -48,11 +48,15 @@
 .footer__copyright { width: 54%; margin: 5px 0 0 10%; }
 .footer__bottom_social { font-size: 18px; }
 
+
 /*.main__menu_basic_link:focus ~ .main__menu_nested { top: 0; left: 0; }*/
+
 .main__about-ship { width: 687px; }
 .main__about-ship_scheme img { width: 338px; height: 310px; }
-.main__about-ship_zoom { width: 45px; height: 45px; top: 19%; }
+.main__about-ship_zoom { width: 45px; height: 45px; }
 .main__about-ship_zoom:hover { width: 55px; height: 55px; }
+.main__about-ship_description li:before { top: 7%; }
+.main__about-ship_description li:last-of-type:before { top: 58%; }
 .main__promo-foto_big img { width: 490px; height: 375px; }
 .main__promo-foto_mini img { width: 190px; height: 120px; }
 .main__promo-foto_strip { height: 25px; }
@@ -89,6 +93,14 @@
 .footer__top_contact { margin: 1% 1% 0 0; font-size: 24px; }
 .footer__top_contact address { font-size: 14px; line-height: 18px; }
 .footer__copyright { width: 58%; margin: 5px 0 0 7%; }
+
+.header__block-right_tagline-ship { top: 1.5%; }
+.main__about-ship { width: 633px; }
+.main__about-ship h1 { font-size: 36px; }
+.main__about-ship_scheme img { width: 100%; height: auto; }
+.main__about-ship_scheme img:nth-child(even) { margin: 10px 0 0 0; position: relative; }
+.main__about-ship_zoom { top: 70%; left: 50%; }
+.main__about-ship_description li:last-of-type:before { top: 57%; }
 }
 
 /* 800 - 960 */
