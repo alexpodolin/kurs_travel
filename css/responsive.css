@@ -265,8 +265,9 @@
 .main__promo-foto_mini:last-of-type { margin: 10px 0 0 0; }
 .main__promo-foto_mini img { height: 130px; }
 .main__about-ship_schedule h2 { padding: 0; }
+
 .main__about-ship_table { font-size: 10px; }
-/*.main__about-ship_table, th, td { padding: 5px 0px; }*/
+.main__about-ship_table, th, td { padding: 5px 0px; }
 }
 
 /* 600 - 640 */
@@ -304,8 +305,10 @@
 .main__promo-foto_mini { width: 187px; height: 115px; margin: 5px 5px 0 0; }
 .main__promo-foto_mini:last-of-type { margin: 5px 0 0 0; }
 .main__promo-foto_mini img { height: 115px; }
-.main__about-ship_table { font-size: 10px; }
-.main__about-ship_table, th, td { padding: 5px 0px;
+
+.main__about-ship_schedule { max-width: 600px; display: block; overflow-x: scroll; }
+
+.main__about-ship_table, th, td { padding: 5px 0px; }
 }
 
 /* 480 - 600 */
@@ -377,6 +380,8 @@
 .main__promo-foto_strip span {  font-size: 14px; line-height: 21px; margin: 0 0 0 -10px;}
 .main__promo-foto_strip span:before { top: 25%; width: 25px; height: 10px; }
 
+
+.main__about-ship_schedule { max-width: 453px; display: block; overflow-x: scroll; }
 }
 
 /* 320 - 479 */
@@ -414,5 +419,6 @@
 .main__promo-foto_mini { width: 320px; height: 180px; float: left; margin: 5px 0 0 0; }
 .main__promo-foto_mini img { height: 180px; }
 
+.main__about-ship_schedule { max-width: 320px; }
 
 }
