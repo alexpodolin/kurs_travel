@@ -23,6 +23,11 @@
 	<!-- Replace favicon.ico &amp; apple-touch-icon.png in the root of your domain and delete these references -->
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+	<!--[if it IE]>-->
+          <script type="text/javascript" src="js/html5shiv.js"></script>
+    <!--<![endif]-->
+
 </head>
 
 <body>
@@ -43,7 +48,7 @@
 			<p>+7(812)<span>385-44-94</span></p>
 		</div>
 
-		<div class="header__menu_btn-hidden" onclick="showShip();">
+		<div class="header__menu_btn-hidden" onclick="showMenuHeader();">
 			<div class="header__menu_btn_container">
 				<div class="header__menu_btn-hidden_stripe"></div>
 				<div class="header__menu_btn-hidden_stripe"></div>
@@ -300,7 +305,7 @@
 
 	<footer class="footer clearfix">
 		<div class="footer__top clearfix">
-			<div class="footer__top_menu clearfix">
+			<div class="footer__top_menu">
 				<nav class="footer__nav">
 					<ul>
 						<li><a>Речные круизы по всей России</a></li>

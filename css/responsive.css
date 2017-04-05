@@ -126,8 +126,8 @@
 .main__about-ship_zoom { top: 70%; left: 50%; }
 .main__about-ship_description li:last-of-type:before { top: 57%; }
 .main__promo-foto_big { width: 100%; }
-.main__promo-foto_big img { width: 100%; height: auto; }.
-.main__promo-foto_strip { height: 30px }
+.main__promo-foto_big img { width: 100%; height: auto; }
+.main__promo-foto_strip { height: 30px; }
 .main__promo-foto_mini { float: left; margin: 5px 9px 0 0; }
 .main__promo-foto_mini:last-of-type { float: right; margin: 5px 0 0 0; }
 .main__promo-foto_mini img { width: 205px; height: 140px; }
@@ -145,7 +145,7 @@
 .header__block-middle button:first-child { margin: 2% 0 0 15%; padding: 2% 3% 16% 2%; }
 .header__block-middle__btn-top span { left: 63px; width: 40px; height: 55px; }
 .header__block-middle button:last-child { margin: 3% 0 0 15%; padding: 3% 2% 13% 2%; }
-.header__block-middle__btn-bottom span { left: 89px; width: 30px; height: 40px; }
+.header__block-middle__btn-bottom span { left: 90px; width: 30px; height: 40px; }
 /*.header__block-right_tagline { top: 3%; }*/
 .header__block-right p:not(:last-child) { margin: 23% 0 0 17%; font-size: 18px; }
 .header__block-right p:last-child { font-size: 18px; margin: 6% 0 0 15%; }
@@ -221,13 +221,13 @@
 .header__block-middle button { font-size: 14px; border-radius: 4px; }
 .header__block-middle button:first-child { padding: 2% 3% 14% 2%; }
 .header__block-middle__btn-top span { left: 66px; width: 30px; }
-.header__block-middle__btn-bottom span { left: 85px; width: 27px; top: 6px; }
+.header__block-middle__btn-bottom span { left: 87px; width: 27px; top: 6px; }
 /*.header__block-right_tagline { top: 4%; right: 2%; }*/
 .header__block-right p:not(:last-child) { margin: 23% 0 0 16%; font-size: 14px; }
 .header__block-right p:last-child { font-size: 18px; margin: 4% 0 0 13%; }
 .header__block-right span { font-size: 30px; }
 .header__menu_menu-link { font-size: 12px; }
-.header__menu_menu-link:first-child:before { left: 10%; }
+.header__menu_menu-link:first-child:before { left: 9%; }
 .main__menu { width: 100%; }
 .main__menu_basic_link { font-size: 14px; line-height: 14px; }
 .main__menu_basic_link:focus ~ .main__menu_nested { 
@@ -277,8 +277,8 @@
 .header__block-middle, 
 .header__block-right { height: 110px; }
 .header__block-left i { padding: 80px 0 0 0; }
-.header__block-middle button:first-child { padding: 2% 2% 15% 2%; }
-.header__block-middle button:last-child { margin: 3% 0 0 10%; padding: 3% 2% 14% 1%; }
+.header__block-middle button:first-child { padding: 2% 1% 15% 2%; }
+.header__block-middle button:last-child { margin: 3% 0 0 10%; padding: 3% 1% 14% 1%; }
 .header__block-right_tagline { right: 1%; }
 .header__block-right p:not(:last-child) { margin: 25% 0 0 13%; }
 .header__block-right p:last-child { margin: 4% 0 0 8%; }
@@ -307,7 +307,6 @@
 .main__promo-foto_mini img { height: 115px; }
 
 .main__about-ship_schedule { max-width: 600px; display: block; overflow-x: scroll; }
-
 .main__about-ship_table, th, td { padding: 5px 0px; }
 }
 
@@ -324,17 +323,17 @@
 .header__block-left i { padding: 25% 0 0 19%; font-size: 24px }
 .header__block-middle { float: right; background: none; }
 .header__block-middle button { font-size: 24px;  }
-.header__block-middle button:first-child { margin: 14% 0 0 20%; padding: 0 3% 5% 2%; }
+.header__block-middle button:first-child { margin: 20% 0 0 20%; padding: 0 3% 5% 2%; }
 .header__block-middle__btn-top span { top: 2px; left: 116px; width: 35px; height: 45px; }
 .header__block-middle button:last-child { padding: 1% 2% 4% 2%; margin: 2% 0 0 20%; }
 .header__block-middle__btn-bottom span { top: 10px; left: 165px; width: 35px; height: 38px; }
-.header__block-right { float: left; height: 75px;}
+.header__block-right { float: left; height: 100px;}
 .header__block-right span { font-size: 36px; }
 /*.header__block-right_tagline { top: 9%; width: 78%; left: 10%; }*/
 .header__block-right_tagline { display: none; }
 .header__block-right p:not(:last-child) { margin: -18% 0 0 25%; font-size: 18px; }
 /*.header__block-right p:last-child { margin: 2% 0 0 24%; font-size: 24px; }*/
-.header__block-right p:last-child { display: none; }
+.header__block-right p:last-child { margin: 3% 0 0 23%; font-size: 24px; }
 .header__block-right { background: none; }
 .header__menu_btn-hidden { 
 	float: left;	
@@ -388,10 +387,10 @@
 @media screen and (max-width: 479px) {
 .wrapper { width: 320px; }
 .header__block-left i { padding: 39% 0 0 4%; }
-.header__block-right { height: 85px; }
+.header__block-right { height: 120px; }
 .header__block-right p:not(:last-child) { margin: -20% 0 0 14%; }
 .header__block-right p:last-child { margin: 4% 0 0 11%; }
-.header__block-middle button:first-child { margin: 24% 0 0 8%; padding: 1% 3% 7% 2%; }
+.header__block-middle button:first-child { margin: 34% 0 0 8%; padding: 1% 3% 7% 2%; }
 .header__block-middle button:last-child { margin: 2% 0 0 8%; padding: 1% 2.5% 6% 2%;  }
 .header__menu li:first-child { padding-left: 13px; }
 .main__offer figure { width: 100%; margin: 0 0 5px 0; }
@@ -420,5 +419,4 @@
 .main__promo-foto_mini img { height: 180px; }
 
 .main__about-ship_schedule { max-width: 320px; }
-
 }
