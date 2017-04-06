@@ -64,13 +64,15 @@ a {
 	position: relative;
 }
 .header__block-middle button:first-child {
-	margin: 4% 0 0 15%;
+	/*margin: 4% 0 0 15%;*/
+	margin: 4% 0 0 11%;
 	padding: 2% 3% 12% 2%;
 }
 .header__block-middle__btn-top span {
 	content:"";
 	position: absolute;
-	left: 128px;
+	/*left: 128px;*/
+	left: 44%;
     top: 4px;
     width: 60px;
     height: 75px;;	
@@ -78,13 +80,15 @@ a {
 	background-size: contain;	
 }
 .header__block-middle button:last-child {
-	margin: 3% 0 0 15%;
+	/*margin: 3% 0 0 15%;*/
+	margin: 3% 0 0 11%;
 	padding: 3% 2% 11% 2%;
 }
 .header__block-middle__btn-bottom span {
 	content:"";
 	position: absolute;
-	left: 165px;
+	/*left: 165px;*/
+	left: 57%;
     top: 10px;
     width: 60px;
     height: 70px;;	
