@@ -62,6 +62,7 @@ a {
 	background-color: transparent;
 	display: inline-block;
 	position: relative;
+	float: right;
 }
 .header__block-middle button:first-child {
 	/*margin: 4% 0 0 15%;*/
