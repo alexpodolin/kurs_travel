@@ -89,10 +89,10 @@ a {
 	content:"";
 	position: absolute;
 	/*left: 165px;*/
-	left: 57%;
+	left: 58%;
     top: 10px;
     width: 60px;
-    height: 70px;;	
+    height: 65px;;	
 	background: transparent url("../img/finger.png") no-repeat;
 	background-size: contain;	
 }
