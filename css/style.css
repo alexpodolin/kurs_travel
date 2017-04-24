@@ -365,7 +365,7 @@ a {
 	float:right;
 }
 .main__offer figure:hover {	
-	cursor: pointer;
+	/*cursor: pointer;*/
 	opacity: 1;
 }
 .main__offer figcaption {
