@@ -116,7 +116,7 @@
 .main__offer img { width: 225px; }
 .main__about-us { font-size: 18px; line-height: 24px; margin: 15px 0 0 0; }
 .footer__top_menu { width: 69%; }
-.footer__nav { width: 220px; height: 120px; font-size: 12px; line-height: 14px; }
+.footer__nav { width: 220px; height: 135px; font-size: 12px; line-height: 14px; }
 .footer__nav:last-child { margin: -50px 0 10px 0; }
 .footer__top_contact { margin: 1% 1% 0 0; font-size: 24px; }
 .footer__top_contact address { font-size: 14px; line-height: 18px; }
@@ -208,7 +208,7 @@
 .main__offer figcaption {  width: 180px; font-size: 11px; }
 .main__offer img { width: 180px; height: 200px; }
 .footer__top_menu { width: 62%; }
-.footer__nav { width: 215px; height: 125px; }
+.footer__nav { width: 215px; height: 140px; }
 .footer__nav:last-child { margin: -50px 0 5px 0; }
 .footer__top_menu { width: 61%; }
 .footer__top_contact { margin: 1% 1% 0 0; }
@@ -260,7 +260,7 @@
 .main__offer figcaption { width: 150px; height: 20px; font-size: 12px; }
 .main__offer img { width: 150px; height: 155px; }
 .footer__top_menu { width: 64%; }
-.footer__nav { width: 185px; font-size: 10px; line-height: 12px; height: 105px; }
+.footer__nav { width: 185px; font-size: 10px; line-height: 12px; height: 120px; }
 .footer__top_contact { font-size: 18px; }
 .footer__top_contact address { font-size: 10px; }
 .footer__copyright { width: 89%; }

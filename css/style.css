@@ -227,16 +227,16 @@ a {
 .main__menu_nested {
 	display: none;
 } 
-.main__menu_basic_link:focus ~ .main__menu_nested {
-	display: block;
-	/*position: fixed;*/
+/*.main__menu_basic_link:focus ~*/ .main__menu_nested {
 	position: absolute;
-    /*left: 35%;
-    top: 30%;*/
+	/*display: block;*/
     left: 100%;
     top: 5%;
     list-style-type: none;
-    width: 100%;
+    width: 100%; 
+}
+.main__menu_nested_show {
+	display: block;
 }
 .main__menu_nested_link {		
 	font-size: 18px;
@@ -247,12 +247,13 @@ a {
 	opacity: 0.7;
 	display: block;
 	padding: 5px 15px;
-    border-radius: 5px;
+    border-radius: 5px;   
 }
 .main__menu_nested_link:hover {
 	background-color: #2f8cad;
 	opacity: 1;
 }
+
 /*---Меню с теплоходами-----------*/
 .main__menu_basic_link:focus ~ .main__menu_nested_ship {
 	display: block;
@@ -591,7 +592,7 @@ a {
 	list-style-type: none;
 	float: left;
 	width: 245px;
-	height: 180px;
+	height: 195px;
 }
 .footer__nav ul { 
 	padding: 0 0 0 10px;
