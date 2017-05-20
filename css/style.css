@@ -266,13 +266,16 @@ a {
 .main__menu_ship_nav {
 	display: none;
 }
-.main__menu_nested_link:hover ~ .main__menu_ship_nav {
-	display: block;	
+/*.main__menu_nested_link:focus ~*/ .main__menu_ship_nav {
+	/*display: block;	*/
 	position: relative;		
 	margin: 5px 0;
 	padding: 0;
 	list-style-type: none;
 	width: 325px;
+}
+.main__menu_ship_nav_show {
+	display: block;
 }
 .main__menu_ship_nav li {
 	border: 2px solid #dd233a;
@@ -546,7 +549,7 @@ a {
 .main__about-ship_schedule {
 	width: 100%;
 	float: left;
-	/*margin: 10px 0 0 0;*/
+	margin: 10px 0 0 0;
 }
 .main__about-ship_table {
 	width: 100%;
